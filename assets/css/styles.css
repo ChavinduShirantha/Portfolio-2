@@ -3,6 +3,16 @@ html {
     scroll-behavior: smooth;
 }
 
+::-webkit-scrollbar {
+    width: 10px;
+    background: #3f3838;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #2626a4;
+}
+
+
 /*Header Section Start*/
 header {
     width: 100%;
@@ -973,3 +983,297 @@ main > section:nth-child(5) > section:nth-child(2) {
 }
 
 /*Project Section End*/
+
+/*Contact Section Start*/
+main > section:nth-child(6) {
+    position: relative;
+    top: 0;
+    width: 100%;
+}
+
+main > section:nth-child(6) > section:first-child {
+    position: relative;
+    text-align: center;
+    padding-top: 68px;
+}
+
+main > section:nth-child(6) > section:first-child > h1 {
+    font-family: Ubuntu, sans-serif;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 7px;
+    padding-bottom: 18px;
+}
+
+main > section:nth-child(6) > section:first-child > h1::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 2px;
+    background: #ddd;
+    bottom: 2px;
+    left: calc(50% - 60px);
+    border-radius: 2px;
+}
+
+main > section:nth-child(6) > section:first-child > h1::after {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 6px;
+    background: #2626a4;
+    bottom: 0;
+    left: calc(50% - 20px);
+    border-radius: 3px;
+}
+
+main > section:nth-child(6) > section:nth-child(2) > section:first-child {
+    display: flex;
+    flex-direction: column;
+    margin-top: 70px;
+}
+
+main > section:nth-child(6) > section:nth-child(2) > section:first-child > h3:first-child {
+    font-family: 'Roboto', sans-serif;
+    font-size: 29px;
+    margin: 0px 0px 13px;
+    text-align: center;
+    color: #2626a4;
+}
+
+main > section:nth-child(6) > section:nth-child(2) > section:first-child > h4:nth-child(2) {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    margin: 0;
+    color: #302E4D;
+}
+
+main > section:nth-child(6) > section:nth-child(2) > section:nth-child(2) {
+    display: flex;
+    margin-top: 90px;
+    align-items: center;
+    justify-content: center;
+}
+
+main > section:nth-child(6) > section:nth-child(2) > section:nth-child(2) > div {
+    display: inline-flex;
+    justify-content: space-evenly;
+    width: 1004px;
+}
+
+main > section:nth-child(6) > section:nth-child(2) > section:nth-child(2) > div:first-child > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main > section:nth-child(6) > section:nth-child(2) > section:nth-child(2) > div:first-child > div > h4:nth-child(2) {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    margin: 10px 0 0;
+}
+
+main > section:nth-child(6) > section:nth-child(2) > section:nth-child(2) > div:first-child > div > i:first-child {
+    color: #2626a4;
+    font-size: 1.99em;
+}
+
+main > section:nth-child(6) > section:nth-child(2) > section:nth-child(2) > div:first-child > div > p:nth-child(3) {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 18px;
+    margin: 10px 0 0;
+}
+
+main > section:nth-child(6) > section:nth-child(3) {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+.contactDetails > input {
+    width: 39vw;
+    height: 44px;
+    background: #F7F8FA;
+    box-shadow: -23px -23px 45px #FFFFFF, 28px 28px 50px rgba(13, 39, 80, 0.16);
+    border-radius: 43px;
+    border: none;
+    padding: 0 0 0 20px;
+}
+
+main > section:nth-child(6) > section:nth-child(3) > form > fieldset > div:nth-child(2) > input {
+    width: 81vw;
+    height: 44px;
+    background: #F7F8FA;
+    box-shadow: -23px -23px 45px #FFFFFF, 28px 28px 50px rgba(13, 39, 80, 0.16);
+    border-radius: 43px;
+    border: none;
+    padding: 0 0 0 20px;
+}
+
+main > section:nth-child(6) > section:nth-child(3) > form:first-child > fieldset > div:nth-child(3) > textarea {
+    width: 81vw;
+    height: 184px;
+    background: #F7F8FA;
+    box-shadow: -23px -23px 45px #FFFFFF, 28px 28px 50px rgba(13, 39, 80, 0.16);
+    border-radius: 43px;
+    border: none;
+    padding: 20px 0 0 20px;
+}
+
+main > section:nth-child(6) > section:nth-child(3) > form > fieldset > div:nth-child(3) {
+    position: relative;
+}
+
+main > section:nth-child(6) > section:nth-child(3) > div:first-child {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main > section:nth-child(6) > section:nth-child(3) > form > fieldset > div:first-child {
+    display: flex;
+    flex-direction: row;
+    gap: 2.9vw;
+}
+
+main > section:nth-child(6) > section:nth-child(3) > form > fieldset > div:nth-child(4) > button {
+    display: flex;
+    gap: 27px;
+    width: 185px;
+    height: 49px;
+    background: #464444;
+    box-shadow: 28px 28px 50px rgba(151, 153, 155, 0.36);
+    border-radius: 46px;
+    border: none;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: left;
+    padding-left: 25px;
+    padding-top: 14px;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
+main > section:nth-child(6) > section:nth-child(3) > form > fieldset > div:nth-child(4) > button:hover{
+    color: #2626a4;
+    background: #FFFFFF;
+    box-shadow: 28px 28px 50px rgba(74, 75, 75, 0.5);
+}
+
+main > section:nth-child(6) > section:nth-child(3) > form > fieldset > div:nth-child(4) > button > div {
+    margin-top: -10px;
+    width: 40px;
+    height: 42px;
+    border-radius: 100%;
+    background: #F9FAFB;
+    box-shadow: inset -13px -13px 16px #FFFFFF, inset 13px 13px 16px rgba(13, 39, 80, 0.16);
+}
+
+main > section:nth-child(6) > section:nth-child(3) > form > fieldset > div:nth-child(4) > button > div > i {
+    position: relative;
+    left: 27.5%;
+    top: 27.19%;
+    color: #2626a4;
+}
+
+main > section:nth-child(6) > section:nth-child(3) > form {
+    display: inline-block;
+}
+
+main > section:nth-child(6) > section:nth-child(3) > form > fieldset {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: normal;
+    gap: 29px;
+    border: none;
+}
+
+/*Contact Section End*/
+
+/*Footer Section Start*/
+footer {
+    position: relative;
+    width: 100%;
+    background: #ECF0F3;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+footer > section:first-child > div:first-child > nav:nth-child(1) {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+footer > section:first-child > div:first-child {
+    display: flex;
+    flex-direction: column;
+}
+
+footer > section:first-child > div:first-child > nav:nth-child(2) > ul:first-child {
+    display: flex;
+    justify-content: center;
+    gap: 37px
+}
+
+footer > section:first-child > div:first-child > nav:nth-child(1) > div {
+    width: 50px;
+    height: 50px;
+    background: #464444;
+    box-shadow: -4px -4px 12px rgba(236, 236, 236, 0.1), 4px 4px 12px rgba(0, 0, 0, 0.16);
+    border-radius: 14px;
+    text-align: center;
+    cursor: pointer;
+}
+
+footer > section:first-child > div:first-child > nav:nth-child(1) > div:hover {
+    transition: all 0.5s ease;
+    -webkit-transform: scale(1.10);
+    transform: scale(1.10);
+}
+
+footer > section:first-child > div:first-child > nav:nth-child(1) > div:hover > a > i:hover {
+    transition: all 0.5s ease;
+    color: #2626a4 !important;
+}
+
+footer > section:first-child > div:first-child > nav:nth-child(1) > div > a > i {
+    font-size: 2.00em;
+    color: #909597;
+    padding-top: 10px;
+    cursor: pointer;
+}
+
+footer > section:first-child > div:first-child > nav:nth-child(2) > ul:first-child > li {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    list-style: none;
+}
+
+footer > section:first-child > div:first-child > nav:nth-child(2) > ul:first-child > li > a {
+    line-height: 20px;
+    text-decoration: none;
+    transition: 0.3s all;
+    color: black;
+}
+
+footer > section:first-child > div:first-child > nav:nth-child(2) > ul:first-child > li > a:hover {
+    color: #2626a4;
+    transition: 0.5s all;
+}
+
+footer > section:nth-child(2) {
+    background: #ECF0F3;
+    text-align: center;
+}
+
+footer > section:nth-child(2) > small:first-child {
+    color: #545151;
+}
+/*Footer Section End*/
